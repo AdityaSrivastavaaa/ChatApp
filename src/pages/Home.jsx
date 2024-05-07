@@ -1,9 +1,13 @@
 import React from 'react'
-
+import Siderbar from "../components/Sidebar.jsx"
+import Chat from '../components/Chat.jsx'
 const Home = () => {
   return (
-    <div>
-      <h1>Home page</h1>
+    <div className='home'>
+      <div className="container">
+        <Siderbar/>
+        <Chat/>
+      </div>
     </div>
   )
 }
